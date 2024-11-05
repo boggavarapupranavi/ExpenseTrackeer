@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-image: url("https://img.freepik.com/free-photo/high-angle-payroll-frame-with-copy-space_23-2149103942.jpg?t=st=1730827669~exp=1730831269~hmac=255134dbaf8f6fe3703d5ae93ac65b8d6544df6047528f8dcd2c7945c90184cc&w=740");
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin: 0; /* Removes default body margin */
+    height: 100vh; /* Ensures the body takes up full screen height */
+    overflow: hidden; /* Prevents scrolling */
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form input, form button {
+    margin: 5px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+canvas {
+    margin-top: 20px;
+}
